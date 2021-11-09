@@ -18,3 +18,5 @@ app.listen(port);
 
 
 console.log('AnimeAPI server started on: ' + port);
+
+module.exports
