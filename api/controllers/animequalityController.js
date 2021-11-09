@@ -15,7 +15,7 @@ exports.quality = function (req, res) {
 
     if (response.statusCode !== 200 || error) {
       res.json({
-        "err": true,
+        "err": error,
         "msg": "Não foi possível carregar as informações."
       });
       return;
